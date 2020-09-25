@@ -136,7 +136,8 @@ function draw() {
   text("drag the line and release to hit the crazy boxes",600,250)
  //imageMode(CENTER)
  //ball = loadImage(polygon_img ,ball.position.x-50,ball.position.y-80,40,40);
-
+ // ellipseMode(RADIUS);
+  ellipse(ball.position.x,ball.position.y,20);
   slingShot.display();
 }
 
