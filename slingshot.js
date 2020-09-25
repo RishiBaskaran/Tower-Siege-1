@@ -4,7 +4,7 @@ class SlingShot{
             bodyA: bodyA,
             pointB: pointB,
             stiffness: 0.04,
-            length: 3
+            length: 20
         }        
         this.pointB = pointB
         this.sling = Constraint.create(options);
@@ -22,7 +22,7 @@ class SlingShot{
             
             strokeWeight(4);
             fill("red");
-            line(pointA.x-50, pointA.y-80, pointB.x-50, pointB.y-80);
+            line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
     }
     
